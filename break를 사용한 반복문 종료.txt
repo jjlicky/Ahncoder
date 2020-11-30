@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int i, sum = 0;			// 반복횟수를 세기 위한 제어 변수
+
+	for (i = 0; i <= 10; i++)		
+	{
+		sum += i;			// i값을 sum에 누적
+		if (sum > 30) break;	// 누적한 값이 30보다 크면 탈출
+	
+	}
+	printf("누적한 값 : %d\n", sum);
+	printf("마지막을 더한 값 : %d\n", i);
+	return 0;
+} 
