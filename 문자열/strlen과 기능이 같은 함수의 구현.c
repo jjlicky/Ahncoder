@@ -1,31 +1,31 @@
 #include <stdio.h>
 
-char* my_strcmp(char* pd, char *ps);		// ÇÔ¼ö ¼±¾ð
+int* my_strlen(char* ps);		
 
 int main(void)
 {
-	char str1[80] = "strawberry";
-	char str2[80] = "banana";
-	printf("»çÀü¿¡ ³ªÁß¿¡ ³ª¿À´Â °úÀÏ ÀÌ¸§ : %s");
-	if (my_strcmp(str1, str2) > 0)
-		printf("%s\n", str1);
+	char str1[80], char str2[80];
+	char resp;
+	
+	printf("2ê°œì˜ ê³¼ì¼ ì´ë¦„ ìž…ë ¥ : ");
+	scanf("%s%s", str1, str2);
+	if (my_strlen(str1) > my_strlen(str2))
+		resp = str1;
 	else
-		printf("%s\n", str2);
-
+		resp = str2;
+	printf("ì´ë¦„ì´ ê¸´ ê³¼ì¼ì€ : %s\n", resp);
 	return 0;
 }
 
-int* my_strcmp(char* pd, char ps)			
+int* my_strlen(char* ps)			
 {
-	while ((*pd == *ps)&&(*pd != '\0'))
+	int cnt == 0;
+	while (*ps != '\0')
 	{
-		pd++;
+		cnt++;
 		ps++;
 	}
-
-	if (*pd > *ps) return 1;
-	else if (*pd < *ps) return -1;
-	else return 0;
+	return cnt;
 }
 
 
