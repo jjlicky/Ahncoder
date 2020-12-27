@@ -4,8 +4,8 @@ int main(void)
 {
 	int ary[5];
 
-	printf("  aryÀÇ °ª : %u\t", ary);
-	printf("aryÀÇ ÁÖ¼Ò : %u\n", &ary);
+	printf("  aryì˜ ê°’ : %u\t", ary);
+	printf("aryì˜ ì£¼ì†Œ : %u\n", &ary);
 	printf("   ary + 1 : %u\t", ary + 1);
 	printf("  &ary + 1 : %u\n", &ary + 1);
 
