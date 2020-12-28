@@ -12,7 +12,7 @@ int main(void)
 
 	while (i < 20)
 	{
-		printf("¹®ÀÚ¿­À» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		printf("ë¬¸ìžì—´ì„ ìž…ë ¥í•˜ì„¸ìš” : ");
 		gets(temp);
 		if (strcmp(temp, "end") == 0) break;
 		str[i]=(char*)malloc(strlen(temp) + 1);

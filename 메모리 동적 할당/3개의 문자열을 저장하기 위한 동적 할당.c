@@ -10,7 +10,7 @@ int main(void)
 
 	for (i = 0; i < 3; i++)
 	{
-		printf("¹®ÀÚ¿­À» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		printf("ë¬¸ìžì—´ì„ ìž…ë ¥í•˜ì„¸ìš” : ");
 		gets(temp);
 		str[i] = (char*)malloc(strlen(temp) + 1);
 		strcpy(str[i], temp);
