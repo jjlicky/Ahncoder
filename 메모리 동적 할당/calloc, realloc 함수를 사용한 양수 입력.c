@@ -13,7 +13,7 @@ int main(void)
 	pi = (int*)calloc(size, sizeof(int));
 	while (1)
 	{
-		printf("¾ç¼ö¸¸ ÀÔ·ÂÇÏ¼¼¿ä => ");
+		printf("ì–‘ìˆ˜ë§Œ  => ");
 		scanf("%d", &num);
 		if (num <= 0) break;
 		if (count == size)
