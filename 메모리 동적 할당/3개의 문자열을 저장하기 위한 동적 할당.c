@@ -10,7 +10,7 @@ int main(void)
 
 	for (i = 0; i < 3; i++)
 	{
-		printf(" : ");
+		printf("문자열을 입력하세요 : ");
 		gets(temp);
 		str[i] = (char*)malloc(strlen(temp) + 1);
 		strcpy(str[i], temp);
