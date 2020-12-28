@@ -15,7 +15,7 @@ int main(void)
 	printf("시력 입력 : ");
 	scanf("%lf%lf", &(robot.left), &(robot.right));
 	robot = exchange(robot);
-	printf("바뀐  : %.1lf %.1lf\n", (robot.left), (robot.right));
+	printf("바뀐 시력 : %.1lf %.1lf\n", (robot.left), (robot.right));
 
 	return 0;
 }
