@@ -12,10 +12,10 @@ int main(void)
 {
 	struct vision robot;
 
-	printf("╫ц╥б ют╥б : ");
+	printf("Л▀°К═╔ Л·┘К═╔ : ");
 	scanf("%lf%lf", &(robot.left), &(robot.right));
 	robot = exchange(robot);
-	printf("╧ы╡О ╫ц╥б : %.1lf %.1lf\n", (robot.left), (robot.right));
+	printf("К╟■К─░ Л▀°К═╔ : %.1lf %.1lf\n", (robot.left), (robot.right));
 
 	return 0;
 }

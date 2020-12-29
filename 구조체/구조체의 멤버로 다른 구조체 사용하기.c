@@ -22,10 +22,10 @@ int main(void)
 	yuni.id = 315;
 	yuni.grade = 3.5;
 
-	printf("³ªÀÌ : %d\n", yuni.pf.age);
-	printf("Å° : %.1lf\n", yuni.pf.height);
-	printf("ÇĞ¹ø : %d\n", yuni.id);
-	printf("ÇĞÁ¡ : %.1lf\n", yuni.grade);
+	printf("ë‚˜ì´ : %d\n", yuni.pf.age);
+	printf("í‚¤ : %.1lf\n", yuni.pf.height);
+	printf("í•™ë²ˆ : %d\n", yuni.id);
+	printf("í•™ì  : %.1lf\n", yuni.grade);
 
 	return 0;
 }

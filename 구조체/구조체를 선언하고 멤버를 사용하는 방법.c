@@ -11,8 +11,8 @@ int main(void)
 
 	a.num = 2;
 	a.grade = 2.7;
-	printf("ÇĞ¹ø : %d\n", a.num);
-	printf("ÇĞÁ¡ : %.1lf\n", a.grade);
+	printf("í•™ë²ˆ : %d\n", a.num);
+	printf("Ã‡ÃÃÂ¡ : %.1lf\n", a.grade);
 
 	return 0;
 }
